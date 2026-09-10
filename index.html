@@ -1,0 +1,119 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.0.0/css/foundation.min.css">
+
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">My Site</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Left Nav Button</a></li>
+    </ul>
+  </section>
+</nav>
+
+<body>
+    <div class="row">
+        <div class="large-12 columns">
+            <ul class="example-orbit" data-orbit>
+                <li>
+                <img src="https://newbloodstore.com/cdn/shop/files/v1bodypillowcapsule_36f6272a-0a8a-4338-bb6a-56f671a52659.jpg?v=1709099573&width=900" alt="slide 1" />
+                <div class="orbit-caption">
+                    Caption One.
+                </div>
+                </li>
+                <li class="active">
+                <img src="https://newbloodstore.com/cdn/shop/files/gabrial2048_81cf074b-ccaa-41f6-a55c-8a814e4fa169.png?v=1709099573&width=900" alt="slide 1" />
+                <div class="orbit-caption">
+                    Caption Two.
+                </div>
+                </li>
+                <li>
+                <img src="https://newbloodstore.com/cdn/shop/files/mpbp.png?v=1709099595&width=900" alt="slide 1" />
+                <div class="orbit-caption">
+                    Caption Three.
+                </div>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <form>
+        <div class="row">
+            <div class="large-12 columns">
+            <label>Input Label
+                <input type="text" placeholder="large-12.columns" />
+            </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-4 columns">
+            <label>Input Label
+                <input type="text" placeholder="large-4.columns" />
+            </label>
+            </div>
+            <div class="large-4 columns">
+            <label>Input Label
+                <input type="text" placeholder="large-4.columns" />
+            </label>
+            </div>
+            <div class="large-4 columns">
+            <div class="row collapse">
+                <label>Input Label</label>
+                <div class="small-9 columns">
+                <input type="text" placeholder="small-9.columns" />
+                </div>
+                <div class="small-3 columns">
+                <span class="postfix">.com</span>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+            <label>Select Box
+                <select>
+                <option value="husker">Husker</option>
+                <option value="starbuck">Starbuck</option>
+                <option value="hotdog">Hot Dog</option>
+                <option value="apollo">Apollo</option>
+                </select>
+            </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-6 columns">
+            <label>Choose Your Favorite</label>
+            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+            <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+            </div>
+            <div class="large-6 columns">
+            <label>Check these out</label>
+            <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+            <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+            <label>Textarea Label
+                <textarea placeholder="small-12.columns"></textarea>
+            </label>
+            </div>
+        </div>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.0.0/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.0.0/js/foundation.min.js"></script>
+
+    <script>
+    $(document).foundation();
+    </script>
+</body>
